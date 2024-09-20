@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="" href="index.js">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h3>Count On ME</h3>
+    <div class="outcontainers">
+    <div class="containers">
+      <div  class="box">
+        <input id="display">
+      </input>
+      </div>
+      <div class="row" id="row1">
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('*')" class ="symbol">X</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToDisplay('4')" >4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')"class ="symbol">-</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')" class ="symbol">+</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToDisplay('/')" class ="symbol">÷</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="clearDisplay()"class ="symbol">C</button>
+        <button onclick="calculate()"class ="symbol">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
